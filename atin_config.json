@@ -1,6 +1,6 @@
 {
     "dirs": {
         "requests": "requests",
-        "collections": "collections",
+        "collections": "collections"
     }
 }
