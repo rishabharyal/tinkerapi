@@ -1,0 +1,8 @@
+-- RUN
+req.atin
+
+-- ATINSCRIPT 
+LET x = GET auth_token
+
+-- RUN
+verify_otp.atin token=x

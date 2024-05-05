@@ -1,0 +1,13 @@
+-- REQUEST
+POST /api/auth/send-otp HTTP/1.1
+Host: 127.0.0.1:3000
+Content-Type: application/json
+Content-Length: 64
+
+{
+    "country_code": "+977",
+    "phone_number": "9843807686"
+}
+
+-- AFTER
+SET response.Token as auth_token
